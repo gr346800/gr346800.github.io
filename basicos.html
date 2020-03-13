@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Los Básicos del Closet</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .topten {
+            list-style: none;
+            counter-reset: my-awesome-counter;
+        }
+
+        .topten li {
+            counter-increment: my-awesome-counter;
+        }
+
+        .topten li::before {
+            content: counter(my-awesome-counter) ". ";
+            color: #1f186e;
+            font-weight: bold;
+            font-size: 20px
+        }
+
+        .topten li h2 {
+            display: inline-block;
+        }
+
+        h2 {
+            color: #1f186e;
+            font-size: 20px;
+        }
+
+        img {
+            width: 300px
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+        #yes {
+            font-size: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 id="yes">Las 10 Prendas Básicas que Debes Tener en tu Closet</h2>
+    <p>Aquí te presentaré las prendas básicas que no pueden faltar en tu closet, porque son fundamentales para tus
+        outfits.
+    </p>
+    <h3>Características de los Básicos</h3>
+    <ul>
+        <li>Deben ser prendas clásicas y versátiles</li>
+        <li>Prendas de buena calidad</li>
+        <li>Debes invertir en tus básicos</li>
+        <li>Son atemporales</li>
+        <li>Le dan estructura a tu closet</li>
+        <li>Se mezclan con las tendencias</li>
+        <li>Son formales e informales</li>
+        <li>Deben calzar perfecto</li>
+    </ul>
+
+    <ol class="topten">
+        <li>
+            <h2>Vestido Negro Corto</h2><br>
+            <img src="images/vestidonegro.jpeg">
+
+        </li>
+        <li>
+            <h2>Camisa Blanca</h2><br>
+            <img src="images/basico1.JPG">
+        </li>
+        <li>
+            <h2>Blazer Negro</h2><br>
+            <img src="images/basico2.jpeg">
+        </li>
+        <li>
+            <h2>Pantalón de Vestir Negro</h2><br>
+            <img src="images/pantalon2.jpeg">
+        </li>
+        <li>
+            <h2>Falda Negra</h2><br>
+            <img src="images/faldanegra.jpeg">
+        </li>
+        <li>
+            <h2>Abrigo Trench</h2> <br>
+            <img src="images/abrigo2.jpeg">
+        </li>
+        <li>
+            <h2>Chaqueta de Jeans y de Cuero Negra</h2><br>
+            <img src="images/chaquetajeans.jpeg">
+            <img src="images/chaquetacuero.jpeg">
+        </li>
+        <li>
+            <h2>Cardigan</h2><br>
+            <img src="images/cardigan.jpeg">
+        </li>
+        <li>
+            <h2>Jeans</h2><br>
+            <img src="images/jeans.jpeg">
+        </li>
+        <li>
+            <h2>Polera Blanca y Negra</h2><br>
+            <img src="images/polerablanca.jpeg">
+            <img src="images/poleranegra.jpeg">
+        </li>
+
+    </ol>
+    <p class="domi">Aquí hay links sobre temas relacionados</p>
+    <ul class="domi">
+        <li><a href="formadecuerpo.html">Vístete de Acuerdo a tu Forma de Cuerpo</a></li>
+        <li> <a href="tendencias.html">Tendencias de Este Invierno 2020</a></li>
+        <li><a href="colors.html">Como Vestirse Según el Tono de Piel</a></li>
+    </ul>
+    <p class="domi">Para volver a la página principal:<a href="index.html">click aquí</a>
+        <!--here are the links to come back to the other pages-->
+</body>
+
+</html>

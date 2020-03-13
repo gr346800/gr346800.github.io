@@ -1,0 +1,28 @@
+body {
+    margin: 0 200px;
+}
+
+h1 {
+    font-family: Lobster;
+    color: #df8c7a;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: Roboto Condensed;
+    color: #cf604c;
+}
+
+p {
+    font-family: Nunito;
+    color: black;
+    font-size: 23px;
+}
+
+h3 {
+    color: #cf604c;
+}
+
+.domi {
+    font-size: 17px;
+}
